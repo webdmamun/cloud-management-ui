@@ -6,7 +6,7 @@ import supportImage from "../assets/support.jpg";
 
 const Support = () => {
   return (
-    <div className="w-full mt-24">
+    <div name="support" className="w-full mt-24">
       <div className="w-full h-[700px] bg-gray-900/50 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
@@ -20,7 +20,7 @@ const Support = () => {
           <h3 className="text-5xl font-bold py-6 text-center">
             Finding the right team
           </h3>
-          <p className="py-4 text-3xl text-slate-300">
+          <p className="py-4 text-3xl text-slate-300 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur beatae cum explicabo dicta temporibus, doloremque
             aliquam enim quod quasi repellendus atque similique totam nihil
